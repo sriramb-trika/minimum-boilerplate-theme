@@ -1,1 +1,1 @@
-# minimum-boilerplate-theme-master
+# minimum-boilerplate-theme
