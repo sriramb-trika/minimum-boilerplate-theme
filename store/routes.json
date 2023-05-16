@@ -1,0 +1,11 @@
+{
+    "store.custom#hello-world": {
+      "path": "/hello-world"
+    },
+    "store.custom#contact-save": {
+      "path": "/contact-save"
+    },
+    "store.custom#contact-load": {
+      "path": "/contact-load"
+    }
+}

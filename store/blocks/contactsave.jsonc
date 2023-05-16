@@ -1,0 +1,21 @@
+{
+    "store.custom#contact-save": {
+        "blocks": [
+            "stack-layout#cta",
+            "contact-save"
+        ]
+    },
+    "stack-layout#cta": {
+        "children": [
+            "image#cta"
+        ]
+    },
+    "image#cta": {
+        "props": {
+            "blockClass": "cover",
+            "width": "100%",
+            "height": 200,
+            "src": "https://www.shutterstock.com/image-vector/abstract-technology-web-header-banner-260nw-457849003.jpg"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+  "store.home": {
+    "blocks": [
+      "rich-text",
+      "tab-layout"
+    ]
+  },
+  "rich-text": {
+    "props": {
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "tab-layout": {
+    "children": [
+      "tab-list",
+      "tab-content"
+    ]
+  },
+  "tab-list": {
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2"
+      ]
+  },
+  "tab-content": {
+    "children": [
+      "tab-content.item#1",
+      "tab-content.item#2"
+      ]
+  },
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "contactAdd",
+      "label": "Save Contacts",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "contactLoad",
+      "label": "Display Contacts"
+    }
+  },
+  "tab-content.item#1": {
+    "children": [
+      "contact-save"
+    ],
+    "props": {
+      "tabId": "contactAdd"
+    }
+  },
+  "tab-content.item#2": {
+    "children": [
+      "contact-load"
+    ],
+    "props": {
+      "tabId": "contactLoad"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "store.custom#hello-world": {
+        "blocks": [
+            "hello-world"
+        ]
+    },
+    "hello-world": {
+        "props": {
+            "firstName": "Trika Technologies",
+            "lastName": "Coimbatore"
+        }
+    }
+}

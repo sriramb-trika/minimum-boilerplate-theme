@@ -1,0 +1,7 @@
+{
+    "store.custom#contact-load": {
+        "blocks": [
+            "contact-load"
+        ]
+    }
+}
